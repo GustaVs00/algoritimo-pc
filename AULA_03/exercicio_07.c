@@ -21,7 +21,7 @@ int main ()
     scanf("%f", &num4);
 
     media = (num1+num2+num3+num4)/4;
-    printf("A média aritmética é: %.2f", media);
+    printf("A mÃ©dia aritmÃ©tica Ã©: %.2f", media);
 
 
     return 0;
