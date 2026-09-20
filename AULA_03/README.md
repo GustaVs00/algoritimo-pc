@@ -49,7 +49,7 @@ Total de produtos recebidos no dia: 75
     Não existem instruções de compilação/execução nos arquivos.
     Enunciado original: não fornecido.
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   ###############################################################################################
 
     PROJETO 2 — exercicio_02
 
