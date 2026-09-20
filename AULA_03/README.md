@@ -49,8 +49,8 @@ Total de produtos recebidos no dia: 75
     Não existem instruções de compilação/execução nos arquivos.
     Enunciado original: não fornecido.
 
-   ###############################################################################################
-
+ \\
+  
     PROJETO 2 — exercicio_02
 
 1.1 Descrição
@@ -70,7 +70,8 @@ Atenção: este programa tem um erro na leitura de minuto (falta o & no scanf), 
     Exibir o total de minutos.
 
 1.4 Tecnologias utilizadas
-Tecnologia 	Função
+Tecnologia 	Função[documentacao_projetos_c.md](https://github.com/user-attachments/files/32440322/documentacao_projetos_c.md)
+
 Linguagem C 	Linguagem do programa
 stdio.h 	printf e scanf
 locale.h 	setlocale
