@@ -1,6 +1,4 @@
-# PROJETO 1 — `exercicio_01`
-
-## 1. README DO PROJETO
+# "Aula 3 - Operadores"
 
 ### 1.1 Nome do projeto
 
@@ -67,7 +65,7 @@ O texto "Qauntidade" está escrito assim no código (erro de digitação, coment
 
 ---
 
-# PROJETO 2 — `exercicio_02`
+# `exercicio_02`
 
 ## 1. README DO PROJETO
 
@@ -129,7 +127,7 @@ Com o código exatamente como foi enviado, esse resultado **não é garantido** 
 
 ---
 
-# PROJETO 3 — `exercicio_03`
+# `exercicio_03`
 
 ## 1. README DO PROJETO
 
@@ -191,7 +189,7 @@ multiplicacao total: 24
 
 ---
 
-# PROJETO 4 — `exercicio_04`
+# `exercicio_04`
 
 ## 1. README DO PROJETO
 
@@ -252,7 +250,7 @@ Conta: (1000 × 2 × 30) / 1000 = 60.
 
 ---
 
-# PROJETO 5 — `exercicio_05`
+# `exercicio_05`
 
 ## 1. README DO PROJETO
 
@@ -312,7 +310,7 @@ Conta: 1,75 × 1,75 = 3,0625; 70 ÷ 3,0625 ≈ 22,857 → 22,86.
 
 ---
 
-# PROJETO 6 — `exercicio_06`
+# `exercicio_06`
 
 ## 1. README DO PROJETO
 
@@ -386,7 +384,7 @@ Conta: área = 9; 9 ÷ 2,5 = 3,6; `ceil(3.6)` = 4; 4 × 10 = 40.
 
 ---
 
-# PROJETO 7 — `exercicio__07`
+# `exercicio__07`
 
 ## 1. README DO PROJETO
 
@@ -444,7 +442,7 @@ Conta: (7+8+6+9) ÷ 4 = 30 ÷ 4 = 7,5.
 
 ---
 
-# PROJETO 8 — `exercicio_08`
+# `exercicio_08`
 
 ## 1. README DO PROJETO
 
@@ -502,7 +500,7 @@ Conta: (6×1 + 7×2 + 8×4) ÷ 7 = (6 + 14 + 32) ÷ 7 = 52 ÷ 7 ≈ 7,43.
 
 ---
 
-# PROJETO 9 — `exercicio_09`
+# `exercicio_09`
 
 ## 1. README DO PROJETO
 
@@ -562,7 +560,7 @@ Conta: (0−3)² = 9; (0−4)² = 16; 9 + 16 = 25; √25 = 5.
 
 ---
 
-# PROJETO 10 — `exercicio_10`
+# `exercicio_10`
 
 ## 1. README DO PROJETO
 
