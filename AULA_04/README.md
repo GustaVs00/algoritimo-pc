@@ -1,4 +1,4 @@
-# PROJETO 1 — `exemplo01`
+# Estruturas de decisão`
 
 ## 1. README DO PROJETO
 
@@ -76,7 +76,7 @@ No último exemplo, o programa afirma que 4 é ímpar, o que é incorreto (4 é 
 
 ---
 
-# PROJETO 2 — `exercicio01`
+# `exercicio01`
 
 ## 1. README DO PROJETO
 
@@ -159,7 +159,7 @@ não existem raízes reais !!!
 
 ---
 
-# PROJETO 3 — `exercicio02`
+# `exercicio02`
 
 ## 1. README DO PROJETO
 
@@ -225,7 +225,7 @@ No segundo exemplo, a média é 5, menor que 6. Com média exatamente 6, o aluno
 
 ---
 
-# PROJETO 4 — `exercicio03`
+# `exercicio03`
 
 ## 1. README DO PROJETO
 
@@ -307,7 +307,7 @@ Aprovado!!!
 
 ---
 
-# PROJETO 5 — `exercicio04`
+# `exercicio04`
 
 ## 1. README DO PROJETO
 
@@ -389,7 +389,7 @@ Conta: 1,70² = 2,89; 50 ÷ 2,89 ≈ 17,30 → menor que 20.
 
 ---
 
-# PROJETO 6 — `exercicio05`
+# `exercicio05`
 
 ## 1. README DO PROJETO
 
