@@ -33,12 +33,12 @@ Saúde e Negócios: Classificador detalhado de categorias de IMC e um sistema de
 \
 Foco: Integração de conceitos aplicados em um cenário complexo e realista.
 
-## Aula 6 - Estrutura de Repetição
-\
-
-
 O que é: Um simulador para planejamento logístico e financeiro de um evento de E-sports.
 
 Como funciona: O usuário insere dados como número de jogadores, máquinas disponíveis, tempo e orçamento.
 
 Resultado: O programa processa todas as variáveis e entrega um relatório completo, diagnosticando se a infraestrutura é suficiente, avaliando o consumo de energia e determinando se o evento está financeiramente aprovado, aprovado com ressalvas ou se não é recomendado.
+
+## Aula 6 - Estrutura de Repetição
+\
+
