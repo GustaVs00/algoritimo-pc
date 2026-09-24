@@ -2,7 +2,7 @@
 
 ## 1. Descrição e Contexto
 
-O **[INSERIR NOME DO PROJETO]** é uma suíte de aplicações de linha de comando (CLI) desenvolvida em **C**. O projeto resolve a necessidade de material prático para o estudo e consolidação de **estruturas de controle de fluxo, laços de repetição e lógica algorítmica** em programação procedural. 
+O Estrutura de Repetição é uma suíte de aplicações de linha de comando (CLI) desenvolvida em **C**. O projeto resolve a necessidade de material prático para o estudo e consolidação de **estruturas de controle de fluxo, laços de repetição e lógica algorítmica** em programação procedural. 
 
 ## 3. Funcionalidades
 
