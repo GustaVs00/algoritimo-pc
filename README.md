@@ -41,4 +41,4 @@ Resultado: O programa processa todas as variáveis e entrega um relatório compl
 
 ## Aula 6 - Estrutura de Repetição
 \
-
+O foco dp projeto demonstra como orquestrar a interação contínua com o usuário via terminal utilizando a biblioteca <stdio.h>, processando entradas e saídas de dados numéricos. A base técnica do repositório está na aplicação estruturada de condicionais (if/else) e laços de repetição (for, while, do-while) para resolver problemas algorítmicos do dia a dia.
