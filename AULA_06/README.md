@@ -1,4 +1,4 @@
-# "WHILE | IF | ELSE"
+# "Estrutura de Repetição"
 
 ## 1. Descrição e Contexto
 
