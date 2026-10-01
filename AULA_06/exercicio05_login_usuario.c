@@ -20,10 +20,10 @@ int main ()
         }else if (tentativa >0){
             tentativa--;
             printf("\nDados incorretos");
-            printf("\nVocê ainda tem %d tentativas", tentativa);
+            printf("\nVocÃª ainda tem %d tentativas", tentativa);
 
          }else {
-             printf("Usuário bloqueado");
+             printf("UsuÃ¡rio bloqueado");
              break;
 
         }
