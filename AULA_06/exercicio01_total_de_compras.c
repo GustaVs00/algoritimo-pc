@@ -14,7 +14,7 @@ int main ()
     scanf("%d", &cpf);
 
     for (i=1; i<=5; i++){
-        printf("Digite o preço dos produtos: ");
+        printf("Digite o preÃ§o dos produtos: ");
         scanf("%f", &preco);
 
         total_compras += preco;
