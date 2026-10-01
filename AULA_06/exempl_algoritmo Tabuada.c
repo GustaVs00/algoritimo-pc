@@ -9,7 +9,7 @@ int main ()
         int i, num=1;
 
     while(num>0){
-        printf("\nDigite um número inteiro (zero para sair:) ");
+        printf("\nDigite um nÃºmero inteiro (zero para sair:) ");
         scanf("%d", &num);
 
         printf("Tabuada do %d", num);
