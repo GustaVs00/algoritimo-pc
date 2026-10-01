@@ -10,7 +10,7 @@ int main ()
     int i;
 
    for (i=1; i<=5; i++){
-        printf("Digite a nota do %dº aluno: ", i);
+        printf("Digite a nota do %dÂº aluno: ", i);
         scanf("%f", &nota);
         total += nota;
 
