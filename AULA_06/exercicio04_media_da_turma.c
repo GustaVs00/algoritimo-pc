@@ -11,10 +11,10 @@ int main ()
 
     for (i=0; i<3; i++){
         do{
-            printf("\nDIgite a %d∫ do aluno (0-10): ", (i+1));
+            printf("\nDIgite a %d¬∫ do aluno (0-10): ", (i+1));
             scanf("%f", &nota);
             if (nota<0 || nota>10) {
-                printf("Nota inv·lida !!! Tente outra vez!!\n");
+                printf("Nota inv√°lida !!! Tente outra vez!!\n");
             } else {
                 soma += nota;
             }
@@ -23,7 +23,7 @@ int main ()
     }
 
     media = soma/3;
-    printf("\nA media do aluno È: %.2f\n\n", media);
+    printf("\nA media do aluno √©: %.2f\n\n", media);
 
     return 0;
 }
