@@ -45,3 +45,4 @@ O foco dp projeto demonstra como orquestrar a interação contínua com o usuár
 
 ## Aula 7 - Cheat Sheet: Estrutura de Repetição
 \
+O projeto resume o funcionamento das estruturas while, do...while e for em C. O projeto também relembra padrões comuns de algoritmos, como o uso de contadores, acumuladores e laços aninhados.   Manipulação de Strings: Há uma explicação focada na declaração e leitura de sequências de caracteres (texto sem espaço) na linguagem C, utilizando a função scanf.
