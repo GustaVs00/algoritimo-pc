@@ -10,7 +10,7 @@ int main()
 
 
     while (1) {
-        printf("Digite um número: ");
+        printf("Digite um nÃºmero: ");
         scanf("%d", &numero);
 
         if (numero == 0) {
@@ -24,7 +24,7 @@ int main()
     }
 
 
-    printf("Soma dos números ímpares: %d\n", soma);
+    printf("Soma dos nÃºmeros Ã­mpares: %d\n", soma);
 
     return 0;
 }
