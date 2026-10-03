@@ -1,4 +1,3 @@
-// exemplo01.c[cite: 11]
 #include<stdio.h>
 #include<locale.h>
 
