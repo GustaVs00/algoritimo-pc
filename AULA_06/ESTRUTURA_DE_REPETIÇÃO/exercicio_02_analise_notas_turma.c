@@ -1,4 +1,3 @@
-// exercicio02_media_de_notas.c[cite: 20]
 #include <stdio.h>
 #include <locale.h>
 
