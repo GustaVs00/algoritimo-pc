@@ -1,4 +1,3 @@
-// exemplo_algoritmo_tabuada.c[cite: 17]
 #include <stdio.h>
 #include <locale.h>
 
