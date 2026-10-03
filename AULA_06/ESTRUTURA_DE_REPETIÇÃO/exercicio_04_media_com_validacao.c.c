@@ -1,0 +1,32 @@
+// exercicio04_media_da_turma.c[cite: 22]
+#include <stdio.h>
+#include <locale.h>
+
+int main ()
+
+{
+   setlocale(LC_CTYPE, "");
+
+    float nota, soma=0, media;
+    int i;
+
+    for (i=0; i<3; i++){
+        
+        // O laço do-while aninhado atua como uma barreira de validação de dados: obriga o usuário a redigitar o valor enquanto a nota fornecida estiver fora do intervalo aceitável (0 a 10)[cite: 22]
+        do{
+            printf("\nDIgite a %dº do aluno (0-10): ", (i+1));
+            scanf("%f", &nota);
+            if (nota<0 || nota>10) {
+                printf("Nota inválida !!! Tente outra vez!!\n");
+            } else {
+                soma += nota;
+            }
+
+        } while(nota<0 || nota>=10);
+    }
+
+    media = soma/3;
+    printf("\nA media do aluno é: %.2f\n\n", media);
+
+    return 0;
+}
