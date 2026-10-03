@@ -1,4 +1,3 @@
-// exemplo_do_while.c[cite: 18]
 #include <stdio.h>
 #include <locale.h>
 
