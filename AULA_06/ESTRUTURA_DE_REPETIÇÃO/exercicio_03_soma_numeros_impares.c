@@ -1,4 +1,3 @@
-// exercicio03_calculo_impar_e_par.c[cite: 21]
 #include <stdio.h>
 #include <locale.h>
 
