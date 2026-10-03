@@ -1,4 +1,3 @@
-// exercicio05_login_usuario.c[cite: 23]
 #include <stdio.h>
 #include <locale.h>
 
