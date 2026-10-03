@@ -1,4 +1,3 @@
-// projeto_arena_tech.c[cite: 24]
 #include <stdio.h>
 #include <math.h>
 #include <locale.h>
