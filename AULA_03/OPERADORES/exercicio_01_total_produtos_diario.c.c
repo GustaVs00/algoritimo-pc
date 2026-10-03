@@ -1,4 +1,3 @@
-// exercicio_01.c[cite: 1]
 #include<stdio.h>
 #include<locale.h>
 
