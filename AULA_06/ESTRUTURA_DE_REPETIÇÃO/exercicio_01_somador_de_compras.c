@@ -1,4 +1,3 @@
-// exercicio01_total_de_compras.c[cite: 19]
 #include <stdio.h>
 #include <locale.h>
 
