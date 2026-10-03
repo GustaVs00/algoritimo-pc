@@ -1,4 +1,3 @@
-// exercicio04_media_da_turma.c[cite: 22]
 #include <stdio.h>
 #include <locale.h>
 
