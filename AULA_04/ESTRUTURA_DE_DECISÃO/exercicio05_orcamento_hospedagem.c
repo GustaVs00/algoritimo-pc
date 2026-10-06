@@ -18,7 +18,7 @@ int main ()
     printf("Qual a quantidade de diárias: ");
     scanf("%d", &num_diarias);
 
-    // O operador lógico OR (||) garante que o sistema reconheça a escolha do usuário validando as opções independentemente se a letra inserida for minúscula ou maiúscula[cite: 16]
+    // O operador lógico OR (||) garante que o sistema reconheça a escolha do usuário validando as opções independentemente se a letra inserida for minúscula ou maiúscula
     if(opcao == 's' || opcao == 'S'){
         printf("Total a pagar R$ %.2d", (num_diarias*300));
     } else if (opcao == 'd' || opcao == 'D'){
