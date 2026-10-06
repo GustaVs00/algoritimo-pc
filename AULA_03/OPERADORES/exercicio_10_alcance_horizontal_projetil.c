@@ -15,10 +15,10 @@ int main ()
     printf("Qual o ângulo de lançamento em graus: ");
     scanf("%f", &angulo);
 
-    // Converte o ângulo fornecido de graus para radianos, formato exigido pela função trigonométrica sin() em C[cite: 10]
+    // Converte o ângulo fornecido de graus para radianos, formato exigido pela função trigonométrica sin() em C
     angulo_radiano = (angulo*3.14)/180;
 
-    // Estima o alcance horizontal de um projétil através da equação da cinemática clássica, adotando 9.8 m/s² como a aceleração da gravidade[cite: 10]
+    // Estima o alcance horizontal de um projétil através da equação da cinemática clássica, adotando 9.8 m/s² como a aceleração da gravidade
     alcance_horizontal = (pow(velocidade, 2) *sin (2*angulo_radiano))/9.8;
     printf("O alcance horizontal estimado é: %.2f metros", alcance_horizontal);
 
