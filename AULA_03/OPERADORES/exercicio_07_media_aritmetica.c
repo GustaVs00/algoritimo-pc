@@ -20,7 +20,7 @@ int main ()
     printf("Digite o quarto valor: ");
     scanf("%f", &num4);
 
-    // Calcula a média aritmética simples somando todos os quatro valores e dividindo pelo total de entradas[cite: 7]
+    // Calcula a média aritmética simples somando todos os quatro valores e dividindo pelo total de entradas
     media = (num1+num2+num3+num4)/4;
     printf("A média aritmética é: %.2f", media);
 
