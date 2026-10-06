@@ -8,7 +8,7 @@ int main()
     int numero;
     int soma = 0;
 
-    // Cria um loop infinito intencional que se baseia na instrução "break" para ser interrompido caso o usuário atenda à condição de parada (digitar 0)[cite: 21]
+    // Cria um loop infinito intencional que se baseia na instrução "break" para ser interrompido caso o usuário atenda à condição de parada (digitar 0)
     while (1) {
         printf("Digite um número: ");
         scanf("%d", &numero);
@@ -17,7 +17,7 @@ int main()
             break;
         }
 
-        // Utiliza a operação de módulo (%) para filtrar os dados: se o resto da divisão por 2 for diferente de zero (ímpar), o número é somado ao total[cite: 21]
+        // Utiliza a operação de módulo (%) para filtrar os dados: se o resto da divisão por 2 for diferente de zero (ímpar), o número é somado ao total
         if (numero % 2 != 0) {
             soma += numero;
         }
