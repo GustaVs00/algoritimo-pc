@@ -17,7 +17,7 @@ int main ()
     printf("Digite a terceira nota: ");
     scanf("%f", &nota3);
 
-    // Aplica a fórmula da média ponderada: multiplica cada nota por seu respectivo peso (1, 2 e 4) e divide pela soma dos pesos (1+2+4 = 7)[cite: 8]
+    // Aplica a fórmula da média ponderada: multiplica cada nota por seu respectivo peso (1, 2 e 4) e divide pela soma dos pesos (1+2+4 = 7)
     media = ((nota1*1)+(nota2*2)+(nota3*4))/(1+2+4);
     printf("A média ponderada é: %.2f", media);
 
