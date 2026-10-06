@@ -21,7 +21,7 @@ int main()
      printf("Digite a coordenada y do 2º ponto:");
     scanf("%f", &y2);
 
-    // Calcula a distância euclidiana entre dois pontos no plano cartesiano baseando-se no Teorema de Pitágoras[cite: 9]
+    // Calcula a distância euclidiana entre dois pontos no plano cartesiano baseando-se no Teorema de Pitágoras
     distancia = sqrt (pow((x1-x2),2)+ pow((y1-y2),2));
     printf("A distância entre os pontos é: %.2f", distancia);
 
