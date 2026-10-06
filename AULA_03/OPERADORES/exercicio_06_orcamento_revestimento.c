@@ -20,10 +20,10 @@ int main ()
 
     area = (largura*comprimento);
     
-    // Calcula quantas caixas são necessárias considerando que cada caixa cobre 2.5 m²[cite: 6]
+    // Calcula quantas caixas são necessárias considerando que cada caixa cobre 2.5 m²
     quantidade = (area/2.5);
-    
-    // A função ceil() arredonda a quantidade fracionada de caixas para o próximo número inteiro, garantindo que não falte material[cite: 6]
+
+    // A função ceil() arredonda a quantidade fracionada de caixas para o próximo número inteiro, garantindo que não falte material
     valor_total = ceil(quantidade)*valor_unitario;
 
     printf("\nÁrea total a ser revestida: %.2f m²", area);
