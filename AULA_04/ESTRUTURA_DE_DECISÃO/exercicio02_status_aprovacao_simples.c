@@ -18,7 +18,7 @@ int main ()
 
     media = (nota1 + nota2)/2;
 
-    // Estrutura de controle de fluxo que desvia a execução dependendo se o aluno atingiu, ou não, a média mínima exigida (6)[cite: 13]
+    // Estrutura de controle de fluxo que desvia a execução dependendo se o aluno atingiu, ou não, a média mínima exigida (6)
     if(media >= 6) {
         printf("Parábens! Você foi aprovado com  a media %.2f", media);
 
