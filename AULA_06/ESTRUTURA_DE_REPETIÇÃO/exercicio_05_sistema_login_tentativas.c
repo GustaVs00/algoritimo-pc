@@ -14,7 +14,7 @@ int main ()
         printf("\nDigite a pass: ");
         scanf("%d", &pass);
 
-        // Sistema de autenticação estruturado em estágios: permite acesso se correto, decrementa o contador se falhar com saldo de tentativas, ou bloqueia ao esgotar as chances[cite: 23]
+        // Sistema de autenticação estruturado em estágios: permite acesso se correto, decrementa o contador se falhar com saldo de tentativas, ou bloqueia ao esgotar as chances
         if(user == conta && pass == senha){
             printf("Logado!!!");
             break;
