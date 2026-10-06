@@ -13,7 +13,7 @@ int main ()
     printf("Digite o segundo número: ");
     scanf("%d", &num2 );
 
-    // Realiza as operações aritméticas fundamentais entre os dois números fornecidos[cite: 3]
+    // Realiza as operações aritméticas fundamentais entre os dois números fornecidos
     soma = num1 + num2;
 
     subtracao = num1 - num2;
