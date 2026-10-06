@@ -12,7 +12,7 @@ int main()
     printf("Qauntidade recebida pela tarde: ");
     scanf("%d", &qte_tarde);
 
-    // Soma as quantidades dos dois turnos para calcular o volume total diário[cite: 1]
+    // Soma as quantidades dos dois turnos para calcular o volume total diário
     qte_total = qte_manha + qte_tarde;
 
     printf("Total de produtos recebidos no dia: %d", qte_total);
