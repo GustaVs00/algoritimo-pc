@@ -13,7 +13,7 @@ int main ()
     printf("minuto?");
     scanf("%d", minuto);
 
-    // Converte as horas inteiras para minutos (multiplicando por 60) e soma aos minutos restantes para obter o tempo absoluto[cite: 2]
+    // Converte as horas inteiras para minutos (multiplicando por 60) e soma aos minutos restantes para obter o tempo absoluto
     minuto_total = (hora * 60) + minuto;
     printf("Ja se passaram %d minuto", minuto_total);
 
