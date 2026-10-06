@@ -47,7 +47,7 @@ int main(void)
     printf("Qual é o orçamento máximo disponível para o evento? ");
     scanf("%f", &orcamento);
 
-    // Cálculos fundamentais para análise de viabilidade do evento. O consumo de energia é convertido para kWh dividindo por 1000[cite: 24]
+    // Cálculos fundamentais para análise de viabilidade do evento. O consumo de energia é convertido para kWh dividindo por 1000
     qte_times = qte_participantes / qte_jogadores_por_time;
     consumo_energia = (qte_computadores * potencia * duracao) / 1000;
     custo_energia = consumo_energia * preco_kwh;
@@ -63,7 +63,7 @@ int main(void)
     printf("\nTimes necessários: %.2d", qte_times);
     printf("\nComputadores disponíveis: %.2d", qte_computadores);
 
-    // Análise de infraestrutura: verifica se o número de equipamentos atende à demanda de participantes; caso negativo, calcula a diferença (computadores_faltantes)[cite: 24]
+    // Análise de infraestrutura: verifica se o número de equipamentos atende à demanda de participantes; caso negativo, calcula a diferença (computadores_faltantes)
     if (qte_computadores >= qte_participantes) {
         printf("\nInfraestrutura: SUFICIENTE!\n");
     } else {
@@ -73,7 +73,7 @@ int main(void)
 
     printf("\nConsumo estimado: %.2f kWh", consumo_energia);
 
-    // Sistema de classificação de consumo energético em três níveis: Baixo (<= 20), Moderado (entre 20 e 40) e Alto (> 40)[cite: 24]
+    // Sistema de classificação de consumo energético em três níveis: Baixo (<= 20), Moderado (entre 20 e 40) e Alto (> 40)
     if (consumo_energia <= 20) {
         printf("\Classificação do consumo: BAIXO\n");
     } else if (consumo_energia > 20 && consumo_energia < 40){
@@ -91,7 +91,7 @@ int main(void)
     printf("\n\nOrçamento disponível: R$%.2f", orcamento);
     printf("\nSaldo: R$%.2f", saldo);
 
-    // Validação orçamentária que emite alertas críticos se os gastos ultrapassarem o teto financeiro ou se a margem de manobra for apertada (saldo <= 5% do orçamento)[cite: 24]
+    // Validação orçamentária que emite alertas críticos se os gastos ultrapassarem o teto financeiro ou se a margem de manobra for apertada (saldo <= 5% do orçamento)
     if (custo_total > orcamento) {
         printf("\nSituação do orçamento: ACIMA DO ORCAMENTO\n");
     } else if (custo_total <= orcamento && saldo <= orcamento*0.05) {
@@ -100,7 +100,7 @@ int main(void)
         printf("\nSituação do orçamento: DENTRO DO ORÇAMENTO\n");
     }
 
-    // Tomada de decisão final através de múltiplas condições: veta o evento caso haja falta de PCs ou dinheiro, aplica ressalvas se o consumo for excessivo, ou aprova inteiramente se tudo estiver dentro dos parâmetros[cite: 24]
+    // Tomada de decisão final através de múltiplas condições: veta o evento caso haja falta de PCs ou dinheiro, aplica ressalvas se o consumo for excessivo, ou aprova inteiramente se tudo estiver dentro dos parâmetros
     if (qte_participantes > qte_computadores || custo_total > orcamento) {
         printf("\nDECISÃO FINAL: NÃO RECOMENDADO!");
     } else if (qte_participantes <= qte_computadores && custo_total <= orcamento && consumo_energia > 40) {
