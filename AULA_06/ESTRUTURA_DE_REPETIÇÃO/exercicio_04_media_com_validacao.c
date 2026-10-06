@@ -11,7 +11,7 @@ int main ()
 
     for (i=0; i<3; i++){
         
-        // O laço do-while aninhado atua como uma barreira de validação de dados: obriga o usuário a redigitar o valor enquanto a nota fornecida estiver fora do intervalo aceitável (0 a 10)[cite: 22]
+        // O laço do-while aninhado atua como uma barreira de validação de dados: obriga o usuário a redigitar o valor enquanto a nota fornecida estiver fora do intervalo aceitável (0 a 10)
         do{
             printf("\nDIgite a %dº do aluno (0-10): ", (i+1));
             scanf("%f", &nota);
