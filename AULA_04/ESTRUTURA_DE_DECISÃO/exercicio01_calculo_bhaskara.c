@@ -17,10 +17,10 @@ int main()
     printf("Digite o valor de c: ");
     scanf("%f", &c);
 
-    // Calcula o discriminante (delta) da equação do segundo grau[cite: 12]
+    // Calcula o discriminante (delta) da equação do segundo grau
     delta = b*b - 4*a*c;
 
-    // Condicional que impede o cálculo de raízes quadradas de números negativos, validando se existem raízes reais possíveis[cite: 12]
+    // Condicional que impede o cálculo de raízes quadradas de números negativos, validando se existem raízes reais possíveis
     if(delta >= 0){
 
         x1 = (-b + sqrt(delta)) / (2*a);
