@@ -14,7 +14,7 @@ int main ()
     printf("Qual a frequência do aluno? ");
     scanf("%f", &frequencia);
 
-    // Avalia os critérios de reprovação de forma sequencial: o aluno é penalizado se falhar na assiduidade ou se falhar na nota mínima[cite: 14]
+    // Avalia os critérios de reprovação de forma sequencial: o aluno é penalizado se falhar na assiduidade ou se falhar na nota mínima
     if(frequencia < 75){
         printf("Reprovado por falta!!\n");
 
