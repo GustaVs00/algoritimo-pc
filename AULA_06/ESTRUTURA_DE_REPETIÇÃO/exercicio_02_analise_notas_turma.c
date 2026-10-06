@@ -14,7 +14,7 @@ int main ()
         scanf("%f", &nota);
         total += nota;
 
-        // Durante cada iteração da coleta de notas, esta condicional verifica se a nota recém-digitada é superior à maior já registrada, atualizando o valor máximo[cite: 20]
+        // Durante cada iteração da coleta de notas, esta condicional verifica se a nota recém-digitada é superior à maior já registrada, atualizando o valor máximo
         if (nota > maior_nota) {
             maior_nota = nota;
         }
