@@ -13,7 +13,7 @@ int main ()
     printf("Digite o cpf: ");
     scanf("%d", &cpf);
 
-    // Utiliza um laço de repetição definido para solicitar exatamente 5 preços, atuando como um acumulador que vai somando cada valor na variável total_compras[cite: 19]
+    // Utiliza um laço de repetição definido para solicitar exatamente 5 preços, atuando como um acumulador que vai somando cada valor na variável total_compras
     for (i=1; i<=5; i++){
         printf("Digite o preço dos produtos: ");
         scanf("%f", &preco);
