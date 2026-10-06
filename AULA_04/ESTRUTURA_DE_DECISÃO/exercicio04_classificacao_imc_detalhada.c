@@ -16,7 +16,7 @@ int main ()
 
     imc = kg/pow(altura,2);
 
-    // Utiliza uma cadeia de condicionais (if / else if) para limitar intervalos exatos, enquadrando o valor do IMC em sua respectiva categoria de saúde[cite: 15]
+    // Utiliza uma cadeia de condicionais (if / else if) para limitar intervalos exatos, enquadrando o valor do IMC em sua respectiva categoria de saúde
     if(imc<20) {
         printf("Você está na categoria abaixo do peso");
 
