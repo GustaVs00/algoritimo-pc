@@ -14,7 +14,7 @@ int main ()
      printf("Qual é a altura da pessoa em metros: ");
      scanf("%f", &altura);
 
-     // Calcula o Índice de Massa Corporal (IMC) dividindo o peso pelo quadrado da altura[cite: 5]
+     // Calcula o Índice de Massa Corporal (IMC) dividindo o peso pelo quadrado da altura
      imc = peso / (altura*altura);
      printf("O Índice de Massa Corporal é: %.2f kg/m²", imc);
 
