@@ -120,68 +120,24 @@ Este repositório contém uma coleção estruturada de projetos e exercícios pr
 
 ---
 
-# 📂 Aula 08 - Vetores e Matrizes em C (Estruturas de Dados)
+## 📦 Aula 8 - Vetores e Matrizes
 
-Bem-vindo ao repositório da **Aula 08**! Este material aborda a utilização de estruturas de dados homogêneas na linguagem C: os vetores (arrays unidimensionais) e as matrizes (arrays multidimensionais). Estes recursos permitem armazenar e manipular múltiplas variáveis do mesmo tipo de forma eficiente sob um único nome.
+- **Foco:** Introdução às estruturas de dados homogêneas, superando a limitação das variáveis simples ao armazenar múltiplos valores do mesmo tipo sob um único identificador na memória.
 
----
+- **Vetores (Arrays 1D):** Exercícios focados em armazenar dados lineares (como salários e notas), percorrer essas listas com laços `for` e processar algoritmos clássicos de média e identificação de valores acima da média.
 
-## 🎯 Visão Geral
+- **Matrizes (Arrays 2D):** Evolução para tabelas de dados cruzados (Linhas x Colunas) utilizando laços de repetição aninhados. Focado na contagem isolada de dados por linha (ex: estoque diário de um produto) e identificação de valores máximos.
 
-Os códigos deste repositório exploram a alocação estática de memória utilizando constantes e a iteração sobre conjuntos de dados. Os principais conceitos aplicados incluem:
-- **Vetores (Arrays 1D):** Declaração, preenchimento e leitura de dados utilizando laços de repetição simples.
-- **Matrizes (Arrays 2D):** Manipulação de tabelas bidimensionais (linhas e colunas) utilizando laços de repetição aninhados.
-- **Constantes (`#define`):** Boas práticas para definir o tamanho de vetores e matrizes, facilitando a manutenção do código.
-- **Lógica de Processamento:** Algoritmos para cálculo de médias, identificação de valores máximos/mínimos e contagem condicional dentro de conjuntos de dados.
+- **Técnicas Abordadas:** Utilização da constante `#define` para dimensionar as estruturas de forma segura e algoritmos de varredura focados em capturar os maiores valores de um conjunto e seus respectivos índices.
 
 ---
 
-## 📁 Estrutura do Repositório e Arquivos
+## 📂 Aula 9 - Manipulação de Arquivos
 
-Abaixo está o detalhamento de cada código-fonte presente neste repositório:
+- **Foco:** Persistência de dados. O módulo ensina como criar programas que interagem diretamente com o disco rígido do sistema operacional para salvar e recuperar informações de forma permanente utilizando ponteiros `FILE`.
 
-### 1. Vetores (Arrays Unidimensionais)
-* **`exercicio01.c`**: Demonstra a criação básica de um vetor de tamanho 8 definido pela constante `TAM`. O programa utiliza um laço `for` para preencher os salários de funcionários e outro laço independente para imprimi-los no terminal.
-* **`exercicio02.c`**: Processa os dados de um vetor para calcular a média de 8 valores. Após o cálculo, percorre a estrutura novamente com uma condicional `if` para contabilizar a quantidade exata de valores que ficaram acima da média.
-* **`exercicio03.c`**: Expande a lógica anterior em um vetor de 10 posições. Além de calcular a média e contar os valores superiores a ela, o algoritmo guarda dinamicamente o maior salário registrado e captura o índice (identificador) do funcionário que o recebe.
+- **Escrita e Criação (`w` e `a`):** Demonstrações de como criar arquivos de texto do zero (modo write) ou anexar novos registros sem sobrescrever o histórico (modo append) utilizando a função formatada `fprintf`.
 
-### 2. Matrizes (Arrays Bidimensionais)
-* **`exercicio04.c`**: Introduz matrizes com laços aninhados, gerenciando 3 linhas e 4 colunas (`LIN 3` e `COL 4`). O programa armazena a quantidade de produtos vendidos em diferentes dias e calcula tanto o subtotal de cada produto (soma das linhas) quanto o volume total geral de itens.
-* **`exercicio05.c`**: Aplica matrizes para gerenciar notas de estudantes. Calcula as médias individuais dividindo a soma das notas pela quantidade de colunas e inclui uma estrutura de decisão para armazenar e exibir exclusivamente o aluno com o maior desempenho acadêmico.
+- **Leitura de Dados (`r`):** Práticas de leitura de arquivos existentes. Inclui a extração contínua linha por linha com a função `fgets` e a separação inteligente de dados tipados (strings e floats) utilizando laços até o final do arquivo (`EOF`) com `fscanf`.
 
----
-
-# 📂 Aula 09 - Manipulação de Arquivos em C (File I/O)
-
-Bem-vindo ao repositório da **Aula 09**! Este material é dedicado ao estudo de persistência de dados utilizando a linguagem C. Aqui, você encontrará exemplos práticos de como os programas podem interagir com o sistema operacional para criar, ler, editar e processar arquivos de texto de forma definitiva.
-
----
-
-## 🎯 Visão Geral
-
-Ao longo destes exercícios, exploramos a biblioteca padrão `<stdio.h>` para manipular ponteiros do tipo `FILE`. Os principais conceitos abordados incluem:
-- **Modos de Abertura:** Escrita (`w`), Leitura (`r`) e Anexação (`a`).
-- **Escrita de Dados:** Como utilizar a função `fprintf` para gravar dados formatados no disco.
-- **Leitura de Dados:** Diferenças práticas entre ler linhas inteiras com `fgets` e extrair dados tipados (strings, inteiros, floats) com `fscanf`.
-- **Tratamento de Arquivos:** Verificação de erros na abertura (ponteiros `NULL`) e a importância de fechar arquivos com `fclose`.
-
----
-
-## 📁 Estrutura do Repositório e Arquivos
-
-Abaixo está o detalhamento de cada código-fonte presente neste repositório:
-
-### 1. Escrita e Criação (`w` - Write)
-- **`exemplo1.c`**: Demonstra a criação do arquivo `tabuada.txt` a partir do zero. O usuário informa um número inteiro, e o programa utiliza um laço de repetição com `fprintf` para calcular e gravar a tabuada (de 0 a 10) diretamente no arquivo de texto. Se o arquivo já existir, ele será reescrito.
-
-### 2. Anexação de Dados (`a` - Append)
-- **`exercico2.c`**: Mostra como adicionar dados ao final de um arquivo existente sem apagar seu histórico. Abre (ou cria) o arquivo `consumo.txt` e utiliza um laço para inserir múltiplos registros informados pelo usuário, contendo o dia da semana e o respectivo valor de consumo (ex: `seg 15.5`).
-
-### 3. Leitura de Linhas Completas (`r` - Read / `fgets`)
-- **`exercicio3.c`**: Focado na leitura simples de texto. Abre o arquivo `tabuada.txt` criado anteriormente e utiliza a função `fgets` dentro de um laço `while` para ler o documento linha por linha, exibindo o conteúdo no console até atingir o fim do arquivo (`NULL`).
-
-### 4. Leitura Formatada e Relatórios (`r` - Read / `fscanf`)
-- **`exercicio5.c`**: Script de processamento de dados. Abre o arquivo `consumo.txt` e utiliza o `fscanf` para separar dinamicamente as strings (dias) dos floats (valores de consumo). O programa varre o documento até o final (`EOF`), acumulando os valores para calcular o **consumo médio**, contabilizar a **quantidade de registros** e identificar o **maior consumo** registrado.
-- **`exercicio7.c`**: Segue uma lógica analítica semelhante, mas voltada para o arquivo `vendas.txt`. Lê identificadores e valores financeiros de forma iterativa (`EOF`) para gerar um relatório final contendo: **total de vendas realizadas**, **soma do faturamento** e o **maior valor** de uma venda única.
-
----
+- **Processamento e Relatórios:** Exercícios que transformam dados de texto em inteligência. Os algoritmos processam listas externas de consumo e vendas para gerar relatórios com somatórias globais, médias e identificação de picos de registro.
