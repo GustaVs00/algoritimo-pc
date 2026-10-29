@@ -141,3 +141,17 @@ Este repositório contém uma coleção estruturada de projetos e exercícios pr
 - **Leitura de Dados (`r`):** Práticas de leitura de arquivos existentes. Inclui a extração contínua linha por linha com a função `fgets` e a separação inteligente de dados tipados (strings e floats) utilizando laços até o final do arquivo (`EOF`) com `fscanf`.
 
 - **Processamento e Relatórios:** Exercícios que transformam dados de texto em inteligência. Os algoritmos processam listas externas de consumo e vendas para gerar relatórios com somatórias globais, médias e identificação de picos de registro.
+
+  ---
+
+ ## 📦 Aula 10 - Modularização, Ponteiros e Structs
+
+Foco: Evolução da arquitetura de software em C. O módulo ensina a abandonar scripts monolíticos gigantes em prol de códigos organizados em pequenos blocos reutilizáveis (Funções), além de introduzir a criação de tipos de dados personalizados (Structs) e o acesso direto à memória do computador.
+
+Modularização (Funções): Práticas que demonstram como encapsular lógica de cálculos (médias, fretes, áreas). O estudante aprende a desenhar funções que recebem parâmetros, processam informações e retornam resultados exatos, facilitando testes e evitando a duplicação de regras de negócio.
+
+Ponteiros e Referência: Introdução ao conceito mais poderoso e temido do C: os ponteiros. Demonstra-se na prática como enviar o endereço de memória (&) de uma variável para que uma função externa consiga alterar seu valor original através do asterisco (*), quebrando o limite da passagem por valor.
+
+Structs (Registros): Substituição de vetores paralelos por Estruturas de Dados coesas. O aluno aprende a declarar entidades do mundo real (como Aluno, contendo cadastro e notas) e manipulá-las diretamente através de ponteiros e do operador seta.
+
+Desafio de Matrizes (Operadoras): Um laboratório analítico de revisão que testa a lógica de matrizes, ensinando a extrair métricas cruzadas. Exige processamento em dois eixos (leitura horizontal para consolidar dados anuais de empresas e leitura vertical para identificar tendências mensais do mercado).
