@@ -130,6 +130,20 @@ Este repositório contém uma coleção estruturada de projetos e exercícios pr
 
 - **Técnicas Abordadas:** Utilização da constante `#define` para dimensionar as estruturas de forma segura e algoritmos de varredura focados em capturar os maiores valores de um conjunto e seus respectivos índices.
 
+  ---
+
+### AULA 8.1 (Desafio Operadoras)
+
+## 📊 Desafio Prático - Relatório Anual de Operadoras
+
+- **Foco:** Aplicação avançada de matrizes (Arrays Bidimensionais) na resolução de um cenário real focado no processamento de dados e geração de estatísticas corporativas.
+
+- **Processamento de Dados:** Utilização de laços de repetição aninhados para extrair informações analíticas da matriz em duas direções estratégicas: varredura horizontal (para avaliar o desempenho anual de cada operadora) e varredura vertical (para identificar picos sazonais de vendas mês a mês).
+
+- **Técnicas Abordadas:** Integração da biblioteca `<math.h>` com a função `ceil()` para garantir o arredondamento matemático para cima no cálculo das médias de vendas. Construção de blocos lógicos focados em capturar referências dinâmicas (como descobrir qual string de "mês" ou "operadora" corresponde ao maior número processado).
+
+- **Resultado:** Geração automatizada de um relatório gerencial consolidado exibindo a média mensal geral, o desempenho médio individual de cada empresa, o mês de maior volume global e a operadora líder de vendas no ano.
+
 ---
 
 ## 📂 Aula 9 - Manipulação de Arquivos
