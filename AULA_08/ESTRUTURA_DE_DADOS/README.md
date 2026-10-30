@@ -29,3 +29,23 @@ Os exercícios foram organizados em uma progressão lógica de dificuldade:
 ### Parte 2: Desbravando as Matrizes
 * **`exercicio04.c`**: **Introdução a Linhas e Colunas.** Utiliza uma matriz de 3 linhas (produtos) por 4 colunas (dias). O foco pedagógico aqui é o gerenciamento de subtotais: o código ensina a zerar a variável `total_produtos` a cada nova linha para calcular o estoque individual corretamente antes de somá-lo ao `total_geral`.
 * **`exercicio05.c`**: **Matrizes com Tomada de Decisão.** Combina todos os conhecimentos anteriores. O programa armazena notas, calcula a média específica de cada aluno (por linha) e utiliza uma estrutura de decisão para identificar qual deles obteve o melhor desempenho acadêmico, exibindo seu identificador no final.
+
+---
+
+# 🏆 Desafio Operadoras
+
+Bem-vindo ao repositório do **Desafio Operadoras**! Este projeto é a consolidação prática dos conceitos de matrizes e funções matemáticas em C, simulando um cenário real de análise de dados corporativos.
+
+---
+
+## 🎯 Visão Geral
+
+O objetivo deste algoritmo é processar o volume de vendas de chips de três grandes operadoras de telefonia (Vivo, Claro e Tim) ao longo dos 12 meses do ano. Para extrair estatísticas precisas, utilizamos uma matriz bidimensional e integramos a biblioteca padrão `<math.h>`.
+
+---
+
+## 🧠 Lógica e Estrutura do Código
+
+- **Matriz de Dados (`vendas[3][12]`):** A estrutura central do programa. Cada linha representa uma operadora específica, enquanto cada coluna representa os meses do ano (de janeiro a dezembro).
+- **Processamento por Linha (Desempenho por Operadora):** O primeiro conjunto de laços `for` varre os dados horizontalmente. Ele soma todas as vendas de uma operadora durante o ano, calcula a média mensal utilizando a função `ceil()` (que força o arredondamento para cima, garantindo números inteiros de chips) e identifica qual operadora teve o maior volume total acumulado no ano.
+- **Processamento por Coluna (Desempenho por Mês):** O segundo conjunto de laços realiza uma varredura vertical. Ele soma as vendas das três operadoras juntas a cada mês, comparando os subtotais para descobrir qual foi o mês de maior sucesso comercial.
