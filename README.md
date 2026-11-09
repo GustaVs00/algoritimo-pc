@@ -169,3 +169,47 @@ Ponteiros e Referência: Introdução ao conceito mais poderoso e temido do C: o
 Structs (Registros): Substituição de vetores paralelos por Estruturas de Dados coesas. O aluno aprende a declarar entidades do mundo real (como Aluno, contendo cadastro e notas) e manipulá-las diretamente através de ponteiros e do operador seta.
 
 Desafio de Matrizes (Operadoras): Um laboratório analítico de revisão que testa a lógica de matrizes, ensinando a extrair métricas cruzadas. Exige processamento em dois eixos (leitura horizontal para consolidar dados anuais de empresas e leitura vertical para identificar tendências mensais do mercado).
+
+---
+
+# ⚡ Projeto 10 — Monitoramento de Consumo de Energia de Laboratórios
+
+Programa em **C** que analisa o consumo semanal de energia elétrica de quatro laboratórios de informática de uma universidade (Lab A, B, C e D) e gera um relatório completo, com o código **modularizado em funções**.
+
+## 🎯 O que o sistema faz
+Os dados (kWh por dia, de segunda a domingo) ficam em uma matriz `float consumo[4][7]`, onde cada linha é um laboratório e cada coluna é um dia da semana. A partir dela, o programa calcula:
+
+- ✅ Consumo **total geral** da semana
+- ✅ Consumo **médio** de cada laboratório (2 casas decimais)
+- ✅ **Dia** com maior consumo total, somando todos os laboratórios
+- ✅ **Laboratório** com maior consumo na semana
+- ✅ Quantidade de registros **acima de 100 kWh**
+
+## 🧩 Arquitetura
+```
+main()
+  └── gerar_relatorio()
+          ├── calcular_total()
+          ├── calcular_media_laboratorio()
+          ├── buscar_dia_maior_consumo()
+          ├── buscar_laboratorio_maior_consumo()
+          └── contar_acima_limite()
+```
+Cada função tem **uma única responsabilidade**. A `main()` apenas coordena a execução, e o tamanho da matriz é controlado por constantes (`#define LABS 4` e `#define DIAS 7`).
+
+## 📊 Resultado com os dados de teste
+| Informação | Resultado |
+|---|---|
+| Consumo total geral | 2725.00 kWh |
+| Médias | Lab A 97.14 · Lab B 92.14 · Lab C 115.00 · Lab D 85.00 |
+| Dia de maior consumo | sex — 460.00 kWh |
+| Laboratório de maior consumo | Lab C — 805.00 kWh |
+| Registros acima de 100 kWh | 10 |
+
+## 📚 Conceitos praticados
+- Matrizes bidimensionais e passagem de matriz como parâmetro (`float consumo[][DIAS]`)
+- Decomposição de problemas e modularização
+- Percorrer linhas, colunas e todos os elementos de uma matriz
+- Busca do maior valor retornando o **índice**
+- Vetores de strings (`const char *`) e constantes com `#define`
+- Formatação de saída com `printf` (`%.2f`)
