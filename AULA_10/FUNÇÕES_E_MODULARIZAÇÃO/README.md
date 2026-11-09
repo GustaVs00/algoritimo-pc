@@ -28,3 +28,91 @@ Também incluímos neste repositório o **Desafio das Operadoras**, um projeto r
   * Calcula a média geral utilizando a função matemática `ceil()` para arredondamento.
   * Varre a matriz por *linhas* para descobrir qual operadora vendeu mais chips no ano.
   * Varre a matriz invertida (por *colunas*) para identificar em qual mês específico ocorreu o pico de vendas globais.
+    
+---
+
+# ⚡ Projeto 10 — Monitoramento de Consumo de Energia de Laboratórios
+
+Programa em **C** que analisa o consumo semanal de energia elétrica de quatro laboratórios de informática e gera um relatório completo, com o código **modularizado em funções**.
+
+## 📋 Contexto
+
+Uma universidade quer acompanhar o consumo de energia (em kWh) dos laboratórios **Lab A, Lab B, Lab C e Lab D** durante uma semana. Os dados ficam em uma matriz `float consumo[4][7]`:
+
+- **cada linha** = um laboratório
+- **cada coluna** = um dia da semana (seg a dom)
+
+## 🎯 O que o programa calcula
+
+1. Consumo **total geral** da semana
+2. Consumo **médio** de cada laboratório (2 casas decimais)
+3. **Dia** com maior consumo total (somando todos os laboratórios)
+4. **Laboratório** com maior consumo total na semana
+5. Quantidade de registros **acima de 100 kWh**
+
+## 🧩 Decomposição em funções
+
+```
+main()
+  │
+  └── gerar_relatorio()
+          │
+          ├── calcular_total()
+          ├── calcular_media_laboratorio()
+          ├── buscar_dia_maior_consumo()
+          ├── buscar_laboratorio_maior_consumo()
+          └── contar_acima_limite()
+```
+
+| Função | Percorre | Retorna |
+|---|---|---|
+| `calcular_total` | todos os elementos | soma geral (`float`) |
+| `calcular_media_laboratorio` | uma **linha** | média do laboratório (`float`) |
+| `buscar_dia_maior_consumo` | as **colunas** | índice do dia (`int`) |
+| `buscar_laboratorio_maior_consumo` | as **linhas** | índice do laboratório (`int`) |
+| `contar_acima_limite` | todos os elementos | quantidade de registros (`int`) |
+| `gerar_relatorio` | — | imprime o relatório (`void`) |
+
+Funções auxiliares: `total_do_laboratorio()` e `total_do_dia()`, que evitam repetição de código nas buscas e no relatório.
+
+O tamanho da matriz é controlado pelas constantes `LABS` e `DIAS` (`#define`), sem "números mágicos" espalhados pelo código.
+
+## 🚀 Como compilar e executar
+
+```bash
+gcc -Wall -Wextra -std=c99 -o consumo main.c
+./consumo
+```
+
+## 🖥️ Saída
+
+```
+===== RELATORIO DE CONSUMO =====
+
+Consumo total geral: 2725.00 kWh
+
+Media do Lab A: 97.14 kWh
+Media do Lab B: 92.14 kWh
+Media do Lab C: 115.00 kWh
+Media do Lab D: 85.00 kWh
+
+Dia com maior consumo total:
+sex - 460.00 kWh
+
+Laboratorio com maior consumo semanal:
+Lab C - 805.00 kWh
+
+Registros acima de 100 kWh: 10
+```
+
+> **Nota:** o enunciado original indicava 9 registros acima de 100 kWh, mas a contagem correta para os dados de teste é **10** (Lab A: 2, Lab B: 2, Lab C: 6, Lab D: 0). Os valores exatamente iguais a 100 não contam, pois o critério é *acima de* 100.
+
+## 📚 Conceitos praticados
+
+- Matrizes bidimensionais e passagem de matriz como parâmetro (`float consumo[][DIAS]`)
+- Decomposição de problemas e modularização
+- Percorrer linhas, colunas e todos os elementos
+- Busca de maior valor retornando **índice**
+- Vetores de strings (`const char *`) para nomes de dias e laboratórios
+- Constantes com `#define`
+- Formatação de saída com `printf` (`%.2f`)
