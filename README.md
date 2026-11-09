@@ -1,8 +1,8 @@
 # Algoritmos em Linguagem C 
 
-🎓 Marco Antonio Sanches Anastacio
-🏫 Analíse e Desenvolvimento de Sistema | 2º Semestre
-👨🏾‍🎓 Gustavo Vitorino da Silva - RGM: 47597577
+# 🎓 Marco Antonio Sanches Anastacio
+# 🏫 Analíse e Desenvolvimento de Sistema | 2º Semestre
+# 👨🏾‍🎓 Gustavo Vitorino da Silva - RGM: 47597577
 
 Este repositório contém uma coleção estruturada de projetos e exercícios práticos desenvolvidos em linguagem C. A documentação abaixo apresenta o resumo de cada módulo explorado, evidenciando a progressão da complexidade lógica e técnica do código.
 
